@@ -5,3 +5,4 @@ Feature: API Response Validation
     Then the response status code should be 200
     And the response should have a valid JSON format
     And the "status" field in the response should be "SUCCESS"
+    And the response should be valid with the schema file "sample/sample_res.json"

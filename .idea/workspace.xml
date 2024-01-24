@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1ecc2093-6104-4344-be09-ee31a94b7eae" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/api.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/api.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/steps/api_step.py" beforeDir="false" afterPath="$PROJECT_DIR$/features/steps/api_step.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/sample_1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/sample_res.json" beforeDir="false" afterPath="$PROJECT_DIR$/sample/sample_res.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample/sample_res_failed.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +55,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sample" />
       <recent name="$PROJECT_DIR$/features/steps" />
     </key>
   </component>
@@ -67,7 +73,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sample/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />

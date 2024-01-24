@@ -1,21 +1,66 @@
 {
-  "orgName": "string",
-  "sender_orgpartyid": "asF.MSDN..,FBV",
-  "orgAddress": {
-    "addressId": "string",
-    "street1": "string",
-    "street2": "string",
-    "city": "string",
-    "stateCode": "string",
-    "zipCode": "string",
-    "timezone": "string",
-    "addresstype": "string",
-    "status": "string"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "id": {},
+    "data": {
+      "type": "object",
+      "properties": {
+        "page_number": {
+          "type": "number"
+        },
+        "page_size": {
+          "type": "number"
+        },
+        "total_count": {
+          "type": "number"
+        },
+        "total_pages": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "page_number",
+        "page_size",
+        "total_count",
+        "total_pages"
+      ]
+    },
+    "list_data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "uid": {
+            "type": "string"
+          },
+          "brand": {
+            "type": "string"
+          },
+          "model": {
+            "type": "string"
+          },
+          "note": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "uid",
+          "brand",
+          "model",
+          "note"
+        ]
+      }
+    }
   },
-  "orgCommunicationChannel": {
-    "email": "user@example.com",
-    "mobile": "string",
-    "secondaryEmail": "user@example.com"
-  },
-  "partyId": "string"
+  "required": [
+    "status",
+    "id",
+    "data",
+    "list_data"
+  ]
 }
