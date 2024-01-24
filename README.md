@@ -1,4 +1,6 @@
 This is a proof-of-concept (POC) project using Python and the Behave framework to test a REST API.
+## How to generate json response to json schema
+https://transform.tools/json-to-json-schema
 
 ### Project Structure:
 
