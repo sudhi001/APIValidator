@@ -1,4 +1,4 @@
-Certainly! It appears that you want to create a proof-of-concept (POC) project using Python and the Behave framework to test a REST API. I'll elaborate on how you can structure such a project:
+This is a proof-of-concept (POC) project using Python and the Behave framework to test a REST API.
 
 ### Project Structure:
 
