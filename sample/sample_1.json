@@ -1,0 +1,85 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Generated schema for Root",
+  "type": "object",
+  "properties": {
+    "orgName": {
+      "type": "string"
+    },
+    "sender_orgpartyid": {
+      "type": "string"
+    },
+    "orgAddress": {
+      "type": "object",
+      "properties": {
+        "addressId": {
+          "type": "string"
+        },
+        "street1": {
+          "type": "string"
+        },
+        "street2": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "stateCode": {
+          "type": "string"
+        },
+        "zipCode": {
+          "type": "string"
+        },
+        "timezone": {
+          "type": "string"
+        },
+        "addresstype": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "addressId",
+        "street1",
+        "street2",
+        "city",
+        "stateCode",
+        "zipCode",
+        "timezone",
+        "addresstype",
+        "status"
+      ]
+    },
+    "orgCommunicationChannel": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "mobile": {
+          "type": "string"
+        },
+        "secondaryEmail": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "email",
+        "mobile",
+        "secondaryEmail"
+      ]
+    },
+    "partyId": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "orgName",
+    "sender_orgpartyid",
+    "orgAddress",
+    "orgCommunicationChannel",
+    "partyId"
+  ]
+}

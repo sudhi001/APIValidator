@@ -1,0 +1,21 @@
+{
+  "orgName": "string",
+  "sender_orgpartyid": "asF.MSDN..,FBV",
+  "orgAddress": {
+    "addressId": "string",
+    "street1": "string",
+    "street2": "string",
+    "city": "string",
+    "stateCode": "string",
+    "zipCode": "string",
+    "timezone": "string",
+    "addresstype": "string",
+    "status": "string"
+  },
+  "orgCommunicationChannel": {
+    "email": "user@example.com",
+    "mobile": "string",
+    "secondaryEmail": "user@example.com"
+  },
+  "partyId": "string"
+}
